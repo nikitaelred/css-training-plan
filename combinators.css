@@ -1,0 +1,18 @@
+.desc p {
+  background-color: rgb(70, 20, 62);
+  color: #fff;
+}
+.child > p {
+  background-color: rgb(70, 20, 62);
+  color: #fff;
+}
+
+.adj + p {
+  background-color: rgb(70, 20, 62);
+  color: #fff;
+}
+
+.gen ~ p {
+  background-color: rgb(70, 20, 62);
+  color: #fff;
+}
