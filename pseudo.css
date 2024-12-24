@@ -1,0 +1,31 @@
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+.tooltip p {
+    display: none;
+    background-color: rgb(21, 8, 43);
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .tooltip:hover p {
+    display: block;
+  }
