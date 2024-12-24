@@ -1,0 +1,43 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+    display: block;
+    width: 18%;
+    background-color: #dddddd;
+    border-bottom: 1px solid;
+    padding: 10px;
+    text-decoration: none;
+    color: #182570;
+}
+
+
+
+.horizontal-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .horizontal-nav li {
+    float: left;
+  }
+  
+  .horizontal-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    width: auto;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: none;
+}
+  
+  .horizontal-nav li a:hover {
+    background-color: #111;
+  }
