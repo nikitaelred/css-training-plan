@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 200px;
+  background-color: #ae00ff; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#ae00ff, rgb(240, 49, 230));
+}
+#grad2 {
+  height: 200px;
+  background-color: #ae00ff; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #ae00ff, rgb(240, 49, 230));
+}
+
+#grad3 {
+  height: 200px;
+  background-color: #ae00ff; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top left, #ae00ff, rgb(240, 49, 230));
+}
+
+#grad4 {
+  height: 200px;
+  background-color: #ae00ff; /* For browsers that do not support gradients */
+  background-image: linear-gradient(60deg, #ae00ff, rgb(240, 49, 230));
+}
+
+#grad5 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(red, yellow, green);
+}
+
+#grad6 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+</style>
+</head>
+<body>
+
+<h1>Linear Gradient - Top to Bottom</h1>
+<p>This linear gradient starts red at the top, transitioning to yellow at the bottom:</p>
+
+<div id="grad1"></div>
+
+<h1>Linear Gradient - Left to right</h1>
+<div id="grad2"></div>
+
+
+<h1>Linear Gradient - to top left</h1>
+<div id="grad3"></div>
+
+
+<h1>Linear Gradient - Using Angles</h1>
+<div id="grad4"></div>
+
+
+<h2>Ellipse (this is default):</h2>
+<div id="grad5"></div>
+
+<h2><strong>Circle:</strong></h2>
+<div id="grad6"></div>
+
+</body>
+</html>
